@@ -44,15 +44,9 @@ body {
     margin-bottom: 2.1vw;
   }
   
-  .social-button svg {
-    width: 4vw;
-    height: 4vw;
-  }
   
-  .social-button svg:hover,
-  .social-button svg:focus {
-    fill: #ffd700;
-  }
+  
+  
   
   .social-button svg:active {
     fill: #e5c100;
@@ -85,6 +79,13 @@ body {
     width: 30%;
   }
 
+  
+
+  .social-button svg:hover,
+  .social-button svg:focus {
+    fill: #ffd700;
+}
+
 
 
 
@@ -101,6 +102,9 @@ body {
                 flex-direction: column;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
+      }
+      .main-header {
+        margin-bottom: 4vw;
       }
   
       .image-list {
@@ -121,6 +125,18 @@ body {
            object-fit: cover;
         -o-object-position: center;
            object-position: center;
+      }
+      .contacts h2 {
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+      }
+      .social-button svg {
+        width: 25vw;
+        height: 25vw;
+      }
+
+      .social-instagram  {
+        margin-right: 6vw;
       }
   
       .shadow-drop-bl:hover {
@@ -152,6 +168,8 @@ body {
         }
       }
     }
+
+
   
     @media (min-width: 700px) {
       main {
@@ -511,6 +529,24 @@ body {
            object-fit: cover;
         -o-object-position: center;
            object-position: center;
+      }
+
+      .social-button svg {
+        width: 4vw;
+        height: 4vw;
+      }
+
+      .contacts h2 {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+      }
+      .social-button svg {
+        width: 4vw;
+        height: 4vw;
+      }
+
+      .social-instagram  {
+        margin-right: 0;
       }
   
       .shadow-pop-bl:hover {
